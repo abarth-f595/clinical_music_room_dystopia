@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="70%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#b31634" stop-opacity=".45"/>
+      <stop offset=".45" stop-color="#101119"/>
+      <stop offset="1" stop-color="#05060a"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="910" cy="170" r="145" fill="none" stroke="#b31634" stroke-width="4" opacity=".7"/>
+  <path d="M95 335h115l38-96 68 220 61-143h180" fill="none" stroke="#c8a96a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="90" y="180" fill="#c8a96a" font-family="serif" font-size="32" letter-spacing="8">CLINICAL MUSIC ROOM</text>
+  <text x="90" y="280" fill="#f3f0ea" font-family="serif" font-size="74" font-weight="700">臨床音楽室・ディストピア</text>
+  <text x="90" y="520" fill="#aaa4a0" font-family="sans-serif" font-size="34">壊れた世界に、処方箋のような音楽を。</text>
+</svg>
