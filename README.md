@@ -1,36 +1,32 @@
 # 臨床音楽室・ディストピア
 
-壊れた世界に、処方箋のような音楽を。
+トップページにロゴ画像を配置した静的サイト版。
 
-## 構成
+## 変更点
 
-- `index.html`：サイト本体
-- `styles.css`：デザイン
-- `script.js`：軽い動き
-- `assets/favicon.svg`：タブ用アイコン
-- `assets/ogp.svg`：SNS共有用の仮OGP画像
-
-## ローカル確認
-
-VS Codeなどでフォルダを開いて、`index.html` をブラウザで開く。
+- `assets/clinical-music-room-dystopia-logo.png` を追加
+- トップページのヒーロー画像としてロゴを表示
+- OGP画像をロゴ画像に変更
 
 ## GitHubへアップロード
 
 ```bash
 git init
 git add .
-git commit -m "Initial commit"
+git commit -m "Add hero logo"
 git branch -M main
 git remote add origin https://github.com/YOUR_NAME/clinical-music-room-dystopia.git
 git push -u origin main
 ```
 
-## Vercelで公開
+すでにGitHubへ上げている場合は以下だけでOK。
 
-1. Vercelにログイン
-2. `Add New...` → `Project`
-3. GitHubリポジトリを選択
-4. Framework Presetは `Other`
-5. Build Commandは空欄
-6. Output Directoryは空欄または `.`
-7. Deploy
+```bash
+git add .
+git commit -m "Add hero logo"
+git push
+```
+
+## Vercel
+
+GitHub連携済みなら、`git push` した時点で自動更新される。
