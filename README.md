@@ -7,6 +7,13 @@
 - `assets/clinical-music-room-dystopia-logo.png` を追加
 - トップページのヒーロー画像としてロゴを表示
 - OGP画像をロゴ画像に変更
+- Works の各バーをInstagramリールへのリンクに変更
+
+## Instagram Reels
+
+- 《虚ろな扉》第一章：黒羽の夜: https://www.instagram.com/reel/DZc12SgtD1L/
+- ワラキアの悪夢: https://www.instagram.com/reel/DZc2FKGt0iE/
+- 祈れぬ羽根の処方箋: https://www.instagram.com/reel/DZc2bKttVta/
 
 ## GitHubへアップロード
 
