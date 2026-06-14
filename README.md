@@ -8,10 +8,13 @@
 - トップページのヒーロー画像としてロゴを表示
 - OGP画像をロゴ画像に変更
 - Works の各バーをInstagramリールへのリンクに変更
+- Works に《虚ろな扉》三部作セクションを追加
 
 ## Instagram Reels
 
 - 《虚ろな扉》第一章：黒羽の夜: https://www.instagram.com/reel/DZc12SgtD1L/
+- 《虚ろな扉》第二章：灰に差す月: https://www.instagram.com/reel/DZjM4mINVc8/
+- 《虚ろな扉》第三章：暁を裂く羽: https://www.instagram.com/reel/DZjNOcVNZqn/
 - ワラキアの悪夢: https://www.instagram.com/reel/DZc2FKGt0iE/
 - 祈れぬ羽根の処方箋: https://www.instagram.com/reel/DZc2bKttVta/
 
