@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">《虚ろな扉》デフォルメアクリルスタンド</title>
+  <desc id="desc">黒翼と月を持つAlisiaのデフォルメアクリルスタンド商品画像</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="24%" r="70%">
+      <stop offset="0" stop-color="#5e347d"/>
+      <stop offset=".42" stop-color="#1d1726"/>
+      <stop offset="1" stop-color="#07070d"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="46%" cy="38%" r="55%">
+      <stop offset="0" stop-color="#fff8ff"/>
+      <stop offset=".56" stop-color="#ad83da"/>
+      <stop offset="1" stop-color="#4f2d72"/>
+    </radialGradient>
+    <linearGradient id="dress" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3f1d59"/>
+      <stop offset=".5" stop-color="#16111f"/>
+      <stop offset="1" stop-color="#050409"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgGlow)"/>
+  <rect x="42" y="42" width="716" height="916" rx="34" fill="none" stroke="#6c3b86" stroke-width="2"/>
+  <rect x="66" y="66" width="668" height="868" rx="26" fill="none" stroke="#c8a96a" stroke-opacity=".28"/>
+  <circle cx="400" cy="162" r="72" fill="url(#moonGlow)" filter="url(#softGlow)"/>
+  <g opacity=".42" fill="#d9c8ff">
+    <circle cx="164" cy="178" r="3"/>
+    <circle cx="615" cy="134" r="4"/>
+    <circle cx="672" cy="272" r="2"/>
+    <circle cx="225" cy="294" r="2"/>
+    <circle cx="548" cy="226" r="3"/>
+  </g>
+  <g transform="translate(400 504)">
+    <path d="M-186-32C-278-142-270-286-162-270c76 12 120 98 118 205-55 28-98 40-142 33Z" fill="#030206" stroke="#7d4aa1" stroke-width="4"/>
+    <path d="M186-32C278-142 270-286 162-270c-76 12-120 98-118 205 55 28 98 40 142 33Z" fill="#030206" stroke="#7d4aa1" stroke-width="4"/>
+    <path d="M-130 220C-76 34-56-88 0-88S76 34 130 220Z" fill="url(#dress)" stroke="#c8a96a" stroke-opacity=".44" stroke-width="3"/>
+    <circle cx="0" cy="-144" r="82" fill="#f0dce8"/>
+    <path d="M-86-166c12-70 170-72 184 6 12 70-32 126-94 126s-104-54-90-132Z" fill="#130c18"/>
+    <path d="M-72-116c-38 44-52 118-20 162 36-18 60-58 66-118Z" fill="#110915"/>
+    <path d="M72-116c38 44 52 118 20 162-36-18-60-58-66-118Z" fill="#110915"/>
+    <ellipse cx="-28" cy="-132" rx="10" ry="15" fill="#7f4aa0"/>
+    <ellipse cx="28" cy="-132" rx="10" ry="15" fill="#7f4aa0"/>
+    <path d="M-18-92c18 14 36 14 54 0" fill="none" stroke="#9a789f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-76-212c32-60 124-64 156 0-20-18-46-26-78-26s-58 8-78 26Z" fill="#42205a"/>
+    <path d="M-132 220h264l-30 66H-102Z" fill="#0c0710" stroke="#c8a96a" stroke-width="3"/>
+    <text x="0" y="274" text-anchor="middle" fill="#c8a96a" font-size="34" font-family="serif" font-weight="700" letter-spacing="8">UTSURO</text>
+  </g>
+  <text x="400" y="862" text-anchor="middle" fill="#f3f0ea" font-size="46" font-family="serif" font-weight="700">デフォルメアクリルスタンド</text>
+  <text x="400" y="910" text-anchor="middle" fill="#c8a96a" font-size="28" font-family="serif">《虚ろな扉》Alisia</text>
+</svg>
