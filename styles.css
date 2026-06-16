@@ -303,39 +303,81 @@ h3 {
 }
 
 .trilogy {
-  display: grid;
-  grid-template-columns: 0.42fr 0.58fr;
-  gap: 18px;
-  align-items: stretch;
-  padding: 22px;
+  padding: 0;
   border: 1px solid rgba(200, 169, 106, .28);
   border-radius: 26px;
   background:
     linear-gradient(135deg, rgba(78, 28, 110, .28), rgba(8, 9, 13, .64)),
     var(--panel);
   box-shadow: 0 24px 70px rgba(0,0,0,.32);
+  overflow: hidden;
+}
+
+.trilogy-summary {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 18px;
+  align-items: center;
+  min-height: 126px;
+  padding: 26px 32px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.trilogy-summary::-webkit-details-marker {
+  display: none;
 }
 
 .trilogy-copy {
   display: grid;
-  align-content: center;
   gap: 12px;
-  padding: 18px;
 }
 
-.trilogy-copy h3 {
+.trilogy-title {
+  display: block;
+  font-family: "Noto Serif JP", serif;
   font-size: clamp(30px, 4.8vw, 54px);
+  font-weight: 900;
+  line-height: 1.18;
 }
 
-.trilogy-copy p {
-  margin: 0;
+.trilogy-description {
   color: var(--muted);
   line-height: 1.9;
+}
+
+.trilogy-toggle {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  transition: color .2s ease;
 }
 
 .trilogy-links {
   display: grid;
   gap: 12px;
+  padding: 0 22px 22px;
+}
+
+.trilogy:not([open]) .trilogy-links {
+  display: none;
+}
+
+.trilogy[open] .trilogy-toggle {
+  color: var(--gold);
+}
+
+.trilogy[open] .trilogy-toggle::before {
+  content: "CLOSE";
+}
+
+.trilogy[open] .trilogy-toggle {
+  font-size: 0;
+}
+
+.trilogy[open] .trilogy-toggle::before {
+  font-size: 12px;
 }
 
 .track {
