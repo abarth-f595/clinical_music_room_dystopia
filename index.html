@@ -14,6 +14,7 @@
 </head>
 <body>
   <div class="noise"></div>
+  <audio id="bgm" src="./assets/pulse-before-diagnosis.mp3" preload="metadata"></audio>
 
   <header class="site-header">
     <a class="brand" href="#top" aria-label="臨床音楽室・ディストピア">
@@ -27,6 +28,10 @@
       <a href="#contact">Contact</a>
     </nav>
   </header>
+
+  <button class="bgm-toggle" type="button" aria-pressed="false" aria-label="背景音楽を再生する">
+    <span class="bgm-status">BGM OFF</span>
+  </button>
 
   <main id="top">
     <section class="hero">

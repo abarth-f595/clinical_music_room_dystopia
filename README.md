@@ -9,6 +9,7 @@
 - OGP画像をロゴ画像に変更
 - Works の各バーをInstagramリールへのリンクに変更
 - Works に《虚ろな扉》三部作セクションを追加
+- 背景音源 `Pulse Before Diagnosis` を追加し、ON/OFFスイッチで30%音量再生できるように変更
 
 ## Instagram Reels
 

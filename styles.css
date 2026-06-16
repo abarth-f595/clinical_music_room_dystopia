@@ -102,6 +102,36 @@ body {
   transform: translateY(-1px);
 }
 
+.bgm-toggle {
+  position: fixed;
+  right: clamp(16px, 3vw, 34px);
+  bottom: clamp(16px, 3vw, 34px);
+  z-index: 30;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid rgba(200, 169, 106, .46);
+  border-radius: 999px;
+  color: var(--text);
+  background: rgba(8, 9, 13, .74);
+  box-shadow: 0 14px 42px rgba(0,0,0,.36), 0 0 22px rgba(179, 22, 52, .18);
+  backdrop-filter: blur(16px);
+  cursor: pointer;
+  font: 800 12px/1 "Inter", "Noto Serif JP", system-ui, sans-serif;
+  letter-spacing: .14em;
+  transition: border-color .2s ease, color .2s ease, transform .2s ease, background .2s ease;
+}
+
+.bgm-toggle:hover {
+  border-color: rgba(200, 169, 106, .78);
+  color: var(--gold);
+  transform: translateY(-1px);
+}
+
+.bgm-toggle[aria-pressed="true"] {
+  border-color: rgba(179, 22, 52, .72);
+  background: rgba(28, 31, 42, .86);
+}
+
 .hero {
   min-height: calc(100vh - 72px);
   display: grid;
