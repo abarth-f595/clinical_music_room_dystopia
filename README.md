@@ -10,6 +10,7 @@
 - Works の各バーをInstagramリールへのリンクに変更
 - Works に《虚ろな扉》三部作セクションを追加
 - 背景音源 `Pulse Before Diagnosis` を追加し、ON/OFFスイッチで30%音量再生できるように変更
+- 購買室セクションを追加し、コスプレ・小物・グッズ・デジタル商品の注文相談カートを実装
 
 ## Instagram Reels
 

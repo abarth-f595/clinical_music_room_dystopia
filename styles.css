@@ -297,6 +297,126 @@ h3 {
   background: linear-gradient(180deg, transparent, rgba(179, 22, 52, .08), transparent);
 }
 
+.shop {
+  background: linear-gradient(180deg, transparent, rgba(200, 169, 106, .07), transparent);
+}
+
+.shop-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+  gap: 18px;
+  align-items: start;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.product-card,
+.cart-panel {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 22px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.25);
+}
+
+.product-card {
+  display: grid;
+  gap: 14px;
+  min-height: 312px;
+  padding: 22px;
+}
+
+.product-type {
+  margin: 0;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .18em;
+}
+
+.product-card p:not(.product-type),
+.cart-note,
+.cart-empty,
+.cart-item span {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.product-meta,
+.cart-total,
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.product-meta {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.product-meta span,
+.cart-total span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.product-meta strong,
+.cart-total strong {
+  color: var(--gold);
+}
+
+.product-button {
+  width: 100%;
+  border: 1px solid rgba(200, 169, 106, .32);
+  color: var(--text);
+  background: rgba(255,255,255,.04);
+  cursor: pointer;
+}
+
+.cart-panel {
+  position: sticky;
+  top: 100px;
+  display: grid;
+  gap: 18px;
+  padding: 24px;
+}
+
+.cart-items {
+  display: grid;
+  gap: 10px;
+  min-height: 88px;
+}
+
+.cart-item {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.cart-item strong {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.cart-total {
+  padding-top: 14px;
+  border-top: 1px solid rgba(200, 169, 106, .28);
+}
+
+.checkout-button {
+  width: 100%;
+}
+
+.cart-note {
+  margin: 0;
+  font-size: 13px;
+}
+
 .track-list {
   display: grid;
   gap: 14px;
@@ -481,8 +601,17 @@ h3 {
   }
 
   .cards,
+  .product-grid,
   .split {
     grid-template-columns: 1fr;
+  }
+
+  .shop-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-panel {
+    position: static;
   }
 
   .track {
